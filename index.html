@@ -12,24 +12,16 @@
             background-color: #111;
             color: #ddd;
             text-align: center;
-            margin: 0;
             padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #32CD32;
         }
         .container {
             max-width: 900px;
             margin: auto;
         }
-        .badge {
-            font-size: 14px;
-            margin: 5px;
-        }
-        .social-icons a {
-            margin: 10px;
-            font-size: 30px;
-            color: white;
+        .typing-text {
+            font-size: 22px;
+            font-weight: bold;
+            color: #FF0000;
         }
         .card {
             background-color: #222;
@@ -38,28 +30,25 @@
             padding: 15px;
             border-radius: 8px;
         }
-        .typing-text {
-            font-size: 22px;
-            font-weight: bold;
-            color: #FF0000;
+        .social-icons a {
+            background-color: black;
+            color: green;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+            height: 200px;
+            overflow-y: auto;
         }
     </style>
 </head>
 <body>
 
-    <!-- HEADER -->
-    <h1>👨‍💻 Hello, I'm Vignesh Ambaykar</h1>
-    <h3>Cybersecurity Professional 🔒</h3>
+    <h1>🚀 Security Operations Center (SOC) Dashboard</h1>
+    <h3>Real-Time Cyber Attack Monitoring</h3>
 
-    <!-- Social Media Links -->
-    <div class="social-icons">
-        <a href="https://www.linkedin.com/in/vigneshambaykar" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:vignesh3967@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://medium.com/@vignesh3967" target="_blank"><i class="fab fa-medium"></i></a>
-    </div>
-
-    <!-- SOC Live Alerts -->
-    <h2>🚨 Security Operations Center - Live Alerts 🚨</h2>
+    <!-- Live SOC Alerts -->
+    <h2>🚨 Live Security Alerts</h2>
     <p class="typing-text" id="alert-text"></p>
 
     <script>
@@ -79,75 +68,26 @@
         updateAlert();
     </script>
 
-    <!-- Brief Introduction -->
-    <div class="container">
-        <div class="card">
-            <h2>Brief Introduction</h2>
-            <p>Cybersecurity professional specializing in security operations, threat detection, and automation. 
-            Passionate about securing systems and optimizing security workflows to mitigate emerging threats.</p>
-        </div>
+    <!-- Live Cyber Attack Map (External API Integration) -->
+    <h2>🌍 Live Cyber Attack Map</h2>
+    <iframe class="map-container" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark"></iframe>
 
-        <div class="card">
-            <h2>Objective</h2>
-            <p>Eager to apply my skills in security automation and incident response to protect digital infrastructures and contribute 
-            to a Security Operations Center (SOC) as a Security Analyst.</p>
-        </div>
+    <!-- SOC Analyst Terminal Interface -->
+    <h2>💻 SOC Analyst Command Interface</h2>
+    <div class="terminal" id="terminal-output">
+        <p>> Initializing SOC Terminal...</p>
     </div>
-
-    <!-- Skills Table -->
-    <div class="container">
-        <h2>💡 Skills & Projects</h2>
-        <table class="table table-dark table-striped">
-            <thead>
-                <tr>
-                    <th>Skill</th>
-                    <th>Associated Project</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Log Analysis with Splunk & Sysmon</td>
-                    <td><a href="https://medium.com/@vignesh3967/simulating-cyber-attack-and-analyzing-logs-in-an-active-directory-home-lab-with-splunk-640c4f88e667" target="_blank">Active Directory Home Lab with Splunk</a></td>
-                </tr>
-                <tr>
-                    <td>Security Automation with Shuffle SOAR</td>
-                    <td><a href="https://medium.com/@vignesh3967/soc-automation-with-soar-9203ed8f33b9" target="_blank">SOC Automation with SOAR</a></td>
-                </tr>
-                <tr>
-                    <td>SIEM & Log Management</td>
-                    <td><a href="https://medium.com/@vignesh3967/a-deep-dive-into-the-elk-stack-understanding-elasticsearch-logstash-and-kibana-42ac12130831" target="_blank">Deep Dive Into the ELK Stack</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <!-- Tools Section -->
-    <div class="container">
-        <h2>🛠 Tools & Technologies</h2>
-        <span class="badge bg-primary">Python</span>
-        <span class="badge bg-success">Bash</span>
-        <span class="badge bg-warning">SIEM (Splunk, ELK)</span>
-        <span class="badge bg-danger">SOAR (Tines, Shuffle)</span>
-        <span class="badge bg-info">EDR (LimaCharlie, Wazuh)</span>
-        <span class="badge bg-secondary">Wireshark</span>
-        <span class="badge bg-light text-dark">Nmap</span>
-        <span class="badge bg-dark">Burp Suite</span>
-    </div>
-
-    <!-- Projects -->
-    <div class="container">
-        <h2>📂 Featured Projects</h2>
-        <div class="card">
-            <h4>🔄 SOAR EDR Project</h4>
-            <p>Automated threat detection, alerting, and response workflows using LimaCharlie & Tines.</p>
-            <a href="https://medium.com/@vignesh3967/soar-edr-project-automating-incident-response-with-limacharlie-and-tines-9754364ec30c" target="_blank">Read More</a>
-        </div>
-
-        <div class="card">
-            <h4>🚀 30-Day SOC Challenge</h4>
-            <p>Completed a 30-day SOC challenge, setting up ELK, SIEM, Brute Force alerts, and more.</p>
-        </div>
-    </div>
+    <button class="btn btn-success mt-2" onclick="executeCommand()">Run Threat Analysis</button>
+    
+    <script>
+        function executeCommand() {
+            const terminal = document.getElementById("terminal-output");
+            terminal.innerHTML += "<p>> Running SIEM threat analysis...</p>";
+            setTimeout(() => {
+                terminal.innerHTML += "<p style='color: red;'>⚠️ Alert: Suspicious activity detected in 192.168.1.45</p>";
+            }, 2000);
+        }
+    </script>
 
 </body>
 </html>
