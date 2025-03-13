@@ -19,12 +19,14 @@ to a Security Operations Center (SOC) as a Security Analyst
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Simulating Cyber Attack and Analyzing Logs in an Active Directory Home Lab with Splunk          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Log Analysis with Splunk & Sysmon          | <a href="https://medium.com/@vignesh3967/simulating-cyber-attack-and-analyzing-logs-in-an-active-directory-home-lab-with-splunk-640c4f88e667">Active Directory Home Lab with Splunk</a> |
+| Security Automation with Shuffle SOAR | <a href="https://medium.com/@vignesh3967/soc-automation-with-soar-9203ed8f33b9">SOC Automation with SOAR</a> |
+| SIEM & Log Management         | <a href="https://medium.com/@vignesh3967/a-deep-dive-into-the-elk-stack-understanding-elasticsearch-logstash-and-kibana-42ac12130831">Deep Dive Into the ELK Stack</a> |
+| Endpoint Security & Monitoring      | <a href="https://medium.com/@vignesh3967/how-to-set-up-elastic-fleet-server-and-enroll-windows-server-using-elastic-agent-6bc77ccdda49">Deploying Fleet Server & Elastic Agent</a> |
+| Brute Force Attack Simulation                  | <a href="https://medium.com/@vignesh3967/how-to-set-up-alerts-for-rdp-and-ssh-brute-force-attacks-on-windows-server-29cb11255028">Setting Up Alerts for RDP & SSH Brute Force</a> |
+| Command & Control (C2) Framework Analysis | <a href="https://medium.com/@vignesh3967/detecting-mythic-c2-activity-creating-alerts-and-dashboards-in-elastic-a772c13e603a">Detecting Mythic C2 Activity</a> |
+| Incident Response & Case Management | <a href="https://medium.com/@vignesh3967/streamlining-alert-management-a-beginners-guide-to-using-os-ticket-for-security-operations-131a4ae6df52">Streamlining Alert Management with OS Ticket</a> |
+| SOAR-EDR Integration & Incident Response | <a href="https://medium.com/@vignesh3967/soar-edr-project-automating-incident-response-with-limacharlie-and-tines-9754364ec30c">Automating Incident Response with LimaCharlie & Tines</a> |
 
 ## Tools
 [Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
