@@ -1,5 +1,15 @@
 # Hello, I'm Vignesh Ambaykar
-<a href="https://www.linkedin.com/in/vigneshambaykar/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<div align="center">
+    <a href="https://www.linkedin.com/in/vigneshambaykar" target="_blank">
+        <img src="https://img.shields.io/badge/-LinkedIn-0077B5?&style=for-the-badge&logo=LinkedIn&logoColor=white" />
+    </a>
+    <a href="mailto:vignesh3967@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/-Gmail-D14836?&style=for-the-badge&logo=Gmail&logoColor=white" />
+    </a>
+    <a href="https://medium.com/@vignesh3967" target="_blank">
+        <img src="https://img.shields.io/badge/-Medium-000000?&style=for-the-badge&logo=Medium&logoColor=white" />
+    </a>
+</div>
 
 [Brief Introduction]
 
@@ -8,15 +18,11 @@ and hands-on experience in security testing, incident response, and SOC automati
 Passionate about securing systems and optimizing security workflows, I continuously explore innovative solutions to mitigate emerging threats.
 
 ## Objective
-[Provide Objective - ]
-
 My journey in technology has fueled my passion for cybersecurity, with a strong focus on security operations and threat detection. 
 I am eager to apply my skills in automation and incident response to protect digital infrastructures and contribute 
 to a Security Operations Center (SOC) as a Security Analyst
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
-
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Log Analysis with Splunk & Sysmon          | <a href="https://medium.com/@vignesh3967/simulating-cyber-attack-and-analyzing-logs-in-an-active-directory-home-lab-with-splunk-640c4f88e667">Active Directory Home Lab with Splunk</a> |
@@ -29,37 +35,85 @@ to a Security Operations Center (SOC) as a Security Analyst
 | SOAR-EDR Integration & Incident Response | <a href="https://medium.com/@vignesh3967/soar-edr-project-automating-incident-response-with-limacharlie-and-tines-9754364ec30c">Automating Incident Response with LimaCharlie & Tines</a> |
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
-### Network
+### 🖥️ Programming Languages  
+<div>
+    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=Python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=GNUBash&logoColor=white" />
+</div>
+
+### 🛡️ Security Operations & Threat Detection  
+<div>
+    <img src="https://img.shields.io/badge/-SIEM-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SOAR-FF4500?&style=for-the-badge&logo=Tines&logoColor=white" />
+    <img src="https://img.shields.io/badge/-EDR-FFD700?&style=for-the-badge&logo=LimaCharlie&logoColor=black" />
+</div>
+
+### 🔍 Vulnerability Scanning & Penetration Testing  
+<div>
+    <img src="https://img.shields.io/badge/-Nmap-4A8BC2?&style=for-the-badge&logo=Nmap&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Burp_Suite-FF5733?&style=for-the-badge&logo=BurpSuite&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Metasploit-0099CC?&style=for-the-badge&logo=Metasploit&logoColor=white" />
+</div>
+
+### 📊 Incident Detection & Response  
+<div>
+    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Elastic_Security-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Wazuh-EE4C2C?&style=for-the-badge&logo=Wazuh&logoColor=white" />
+</div>
+
+### 🕵️‍♂️ Threat Intelligence & Traffic Analysis  
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Traffic_Analysis-5C2D91?&style=for-the-badge&logo=Security&logoColor=white" />
 </div>
 
-### Endpoint
+### 🔧 Security Automation & Incident Response  
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tines-000000?&style=for-the-badge&logo=Tines&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Shuffle-FF4500?&style=for-the-badge&logo=Shuffle&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LimaCharlie-FFD700?&style=for-the-badge&logo=LimaCharlie&logoColor=black" />
 </div>
 
-### SIEM
+### 🔐 Network & System Security  
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-IDS/IPS-5C2D91?&style=for-the-badge&logo=Security&logoColor=white" />
+    <img src="https://img.shields.io/badge/-TCP/IP-0078D4?&style=for-the-badge&logo=Internet&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Active_Directory-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Linux_(Ubuntu/Kali)-FCC624?&style=for-the-badge&logo=Linux&logoColor=black" />
 </div>
 
-## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
+## 🎓 Training & Certifications  
+
+### 🏭 Industrial & OT Cybersecurity  
 <div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Fundamentals_of_OT_Cybersecurity_(ICS/SCADA)-005571?&style=for-the-badge&logo=Security&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Industrial_Cybersecurity_(IEC_62443)-FF5733?&style=for-the-badge&logo=Security&logoColor=white" />
 </div>
+
+### 🌐 Network Security & Analysis  
+<div>
+    <img src="https://img.shields.io/badge/-Network_Support_and_Security_(Cisco)-0078D4?&style=for-the-badge&logo=Cisco&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Introduction_to_Network_Analysis_(Security_Blue_Team)-1F70C1?&style=for-the-badge&logo=Security&logoColor=white" />
+</div>
+
+### 🔍 Threat Detection & Incident Response  
+<div>
+    <img src="https://img.shields.io/badge/-Identifying_Web_Attacks_Through_Logs_(Cybrary)-000000?&style=for-the-badge&logo=Cybrary&logoColor=white" />
+</div>
+
+### 🛡️ Ethical Hacking & Penetration Testing  
+<div>
+    <img src="https://img.shields.io/badge/-Full_Ethical_Hacking_&_Penetration_Testing_(Udemy)-A435F0?&style=for-the-badge&logo=Udemy&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Certified_Ethical_Hacking_(Binary_Technology)-FF0000?&style=for-the-badge&logo=Security&logoColor=white" />
+</div>
+
+### 💻 Computer Networking  
+<div>
+    <img src="https://img.shields.io/badge/-The_Bits_&_Bytes_of_Computer_Networking_(Coursera)-2A73CC?&style=for-the-badge&logo=Coursera&logoColor=white" />
+</div>
+
 
 ## Projects
 - Detection Lab
